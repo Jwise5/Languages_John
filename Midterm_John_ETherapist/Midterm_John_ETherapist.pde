@@ -86,11 +86,17 @@ void draw(){
 //    text("electronic therapist", width/2, height/2-150);
 //    text("click the couch to begin", width/2, height/2+100);
 //
-    text("welcome to", 300, 270);
-    text("''processing feelings''", 300, 300);
-    text("electronic therapist", 300, 330);
-    text("click the couch", 1020, 285);
-    text("to begin", 1020, 315);
+    //text("welcome to", 300, 270);
+    //text("''processing feelings''", 300, 300);
+    //text("electronic therapist", 300, 330);
+    //text("click the couch", 1020, 285);
+    //text("to begin", 1020, 315);
+    text("welcome to", 350, 240);
+    text("''processing feelings''", 350, 280);
+    text("electronic therapist", 350, 320);
+    text("click the couch", 995, 450);
+    text("to begin", 995, 480);
+
 
 
 } else if (stage==2){
@@ -444,7 +450,8 @@ void draw(){
      //amount=(random(1,300));
      
      
-     text(s+Float.toString(bill),1087,464);
+     //text(s+Float.toString(bill),1087,464);
+     text(s+Float.toString(bill),975,407);
      text("",1087,494);
      text("",1087,524);
   }
